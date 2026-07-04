@@ -9,7 +9,8 @@
       "Bash(export PYTHONUTF8=1)",
       "Bash(python -c ' *)",
       "Bash(git add *)",
-      "Bash(git commit -m 'Merge best content from both resumes into PDF and web resume *)"
+      "Bash(git commit -m 'Merge best content from both resumes into PDF and web resume *)",
+      "Bash(git fetch *)"
     ]
   }
 }
