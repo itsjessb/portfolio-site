@@ -1,6 +1,6 @@
 # jessicabargenquast.com
 
-Personal portfolio site for Jessica Bargenquast. Plain HTML and CSS — no framework, no build step. Every page is a normal file you can open and edit in any text editor.
+Personal portfolio site for Jessica Bargenquast. Plain HTML and CSS, no framework, no build step. Every page is a normal file you can open and edit in any text editor.
 
 ## Files
 
@@ -10,11 +10,11 @@ Personal portfolio site for Jessica Bargenquast. Plain HTML and CSS — no frame
 | `about.html` | About page (story + certifications + headshot) |
 | `case-studies.html` | Blue Yonder case study |
 | `resume.html` | Web resume + PDF download button |
-| `insights.html` | Blog page (has a commented-out post template inside — open the file and follow the instructions) |
-| `contact.html` | Contact page (Netlify Forms — see below) |
+| `insights.html` | Blog page (has a commented-out post template inside; open the file and follow the instructions) |
+| `contact.html` | Contact page (Netlify Forms, see below) |
 | `css/styles.css` | All styling for every page |
 | `assets/` | Resume PDF and images |
-| `_headers` | Security headers Netlify sends with every page — if you add JavaScript or a new external service (analytics, embeds, different fonts), this file needs updating too |
+| `_headers` | Security headers Netlify sends with every page. If you add JavaScript or a new external service (analytics, embeds, different fonts), this file needs updating too |
 
 ## How to edit text
 
@@ -22,7 +22,7 @@ Personal portfolio site for Jessica Bargenquast. Plain HTML and CSS — no frame
 2. Find the text you want to edit (Ctrl+F helps).
 3. Change it, save, refresh your browser.
 
-The header/nav at the top of each page is **copy-pasted into every file** — if you add or rename a page, update the `<nav>` block in all six files.
+The header/nav at the top of each page is **copy-pasted into every file**. If you add or rename a page, update the `<nav>` block in all six files.
 
 ## Add your headshot
 
@@ -34,21 +34,21 @@ Replace `assets/Jessica-Bargenquast-Resume.pdf` with a new file of the same name
 
 ## Preview locally
 
-Just double-click `index.html` — it opens in your browser and everything works.
+Just double-click `index.html`. It opens in your browser and everything works.
 
 ## Contact form
 
-The contact page uses **Netlify Forms**, so your email address never appears anywhere in the site code (bots can't harvest it). The form starts working automatically once the site is live on Netlify — no extra account needed.
+The contact page uses **Netlify Forms**, so your email address never appears anywhere in the site code (bots can't harvest it). The form starts working automatically once the site is live on Netlify, no extra account needed.
 
 - Submissions appear in the Netlify dashboard under **Forms**.
 - To get them emailed to you: Netlify → **Forms → Form notifications → Add notification → Email**, and enter whatever address you like. You can change that address anytime without touching the site.
-- The form does **not** work when previewing locally — that's expected.
+- The form does **not** work when previewing locally. That's expected.
 
 ## Deploy (Netlify + GitHub)
 
 1. Push this folder to a GitHub repository.
 2. In Netlify: **Add new site → Import an existing project → GitHub**, pick the repo.
-3. Leave build settings empty (there's no build) — publish directory is the repo root.
+3. Leave build settings empty (there's no build). The publish directory is the repo root.
 4. In Netlify **Domain settings**, add `jessicabargenquast.com` and follow the DNS instructions.
 
 After that, every push to GitHub redeploys the site automatically.

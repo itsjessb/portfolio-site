@@ -1,5 +1,5 @@
 /* ============================================================
-   Jessica Bargenquast — portfolio site styles
+   Jessica Bargenquast · portfolio site styles
    Plain CSS, no build step. Edit freely.
 
    Brand system: "Clay & Iron" (see jessica-brand-style-guide.html).
@@ -26,7 +26,7 @@
   --border-dark:  #D4D0CA;
   --white:        #FFFFFF;
 
-  /* Semantic accent layer — swap these two lines to re-theme the whole
+  /* Semantic accent layer: swap these two lines to re-theme the whole
      site. Primary accent is Patina (teal); Red Clay is demoted to a
      secondary highlight so the palette reads less like a default AI clay. */
   --accent:       var(--patina);
@@ -38,7 +38,7 @@
   --font-heading: 'Space Grotesk', system-ui, -apple-system, sans-serif;
   --font-body:    'Inter', system-ui, -apple-system, sans-serif;
 
-  /* Type scale (major third — 1.25 ratio) */
+  /* Type scale (major third, 1.25 ratio) */
   --text-xs:   0.75rem;    /* 12px */
   --text-sm:   0.875rem;   /* 14px */
   --text-base: 1rem;       /* 16px */
