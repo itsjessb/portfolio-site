@@ -14,6 +14,7 @@ Personal portfolio site for Jessica Bargenquast. Plain HTML and CSS — no frame
 | `contact.html` | Contact page (Netlify Forms — see below) |
 | `css/styles.css` | All styling for every page |
 | `assets/` | Resume PDF and images |
+| `_headers` | Security headers Netlify sends with every page — if you add JavaScript or a new external service (analytics, embeds, different fonts), this file needs updating too |
 
 ## How to edit text
 
@@ -25,7 +26,7 @@ The header/nav at the top of each page is **copy-pasted into every file** — if
 
 ## Add your headshot
 
-Save your headshot photo as `assets/headshot.jpg` (exactly that name). The About page will pick it up automatically. Until then it shows a "JB" placeholder.
+Save your headshot photo as `assets/headshot.jpg` (exactly that name). The About page will pick it up automatically.
 
 ## Update the resume PDF
 

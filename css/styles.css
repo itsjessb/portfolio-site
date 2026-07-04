@@ -316,20 +316,6 @@ img { max-width: 100%; display: block; }
   border-radius: var(--radius-md);
 }
 
-.photo-fallback {
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  background: var(--surface);
-  aspect-ratio: 4 / 5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-heading);
-  font-weight: 700;
-  font-size: var(--text-3xl);
-  color: var(--border-dark);
-}
-
 /* ---------- Case study ---------- */
 
 .case-meta {
