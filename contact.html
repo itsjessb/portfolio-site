@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Jessica Bargenquast</title>
+  <meta name="description" content="Get in touch with Jessica Bargenquast — AI workflow consulting, program management, and speaking inquiries.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-name" href="index.html">Jessica Bargenquast</a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="case-studies.html">Case Studies</a>
+        <a href="resume.html">Resume</a>
+        <a href="insights.html">Insights</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="prose">
+          <p class="kicker">Contact</p>
+          <h1>Let's talk about your workflows.</h1>
+          <p class="lede">Whether you're exploring AI agents, untangling a creative operations bottleneck, or looking for program management leadership — send a message below and I'll get back to you.</p>
+
+          <!-- This form is powered by Netlify Forms. It starts working
+               automatically once the site is deployed on Netlify —
+               submissions arrive in the Netlify dashboard and can be
+               forwarded to any email address (Netlify > Forms >
+               Form notifications). It will NOT submit when previewing
+               the site locally. -->
+          <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
+            <p style="display:none;"><label>Leave this field empty: <input name="bot-field"></label></p>
+            <label>Your name
+              <input type="text" name="name" required>
+            </label>
+            <label>Your email
+              <input type="email" name="email" required>
+            </label>
+            <label>Message
+              <textarea name="message" rows="6" required></textarea>
+            </label>
+            <button class="btn" type="submit">Send message</button>
+          </form>
+
+          <ul class="contact-list">
+            <li><span>LinkedIn</span> <a href="https://linkedin.com/in/jessbarg">linkedin.com/in/jessbarg</a></li>
+            <li><span>Location</span> Phoenix, Arizona</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>© 2026 Jessica Bargenquast</div>
+      <div>
+        <a href="contact.html">Contact</a> ·
+        <a href="https://linkedin.com/in/jessbarg">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
