@@ -407,9 +407,21 @@
       <a href="privacy-policy.html">Privacy Policy</a>
       <a href="terms-of-use.html">Terms of Use</a>
       <a href="cookie-notice.html">Cookie Notice</a>
+      <button type="button" class="footer-legal-btn open-cookie-preferences">Cookie Preferences</button>
     </div>
   
   </footer>
+
+  <div id="cookie-banner" class="cookie-banner" role="region" aria-label="Cookie preferences" hidden>
+    <div class="cookie-banner-inner">
+      <p>This site doesn't use analytics or advertising cookies today. This choice is saved so it's ready to apply automatically if that ever changes. See the <a href="cookie-notice.html">Cookie Notice</a>.</p>
+      <div class="cookie-banner-actions">
+        <button type="button" class="btn secondary" id="cookie-reject">Reject non-essential</button>
+        <button type="button" class="btn" id="cookie-accept">Accept</button>
+      </div>
+    </div>
+  </div>
+  <script src="js/cookie-consent.js"></script>
 
 </body>
 </html>
