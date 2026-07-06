@@ -509,6 +509,15 @@ img { max-width: 100%; display: block; }
 .site-footer a { color: var(--iron-muted); text-decoration-color: var(--border-dark); }
 .site-footer a:hover { color: var(--accent); text-decoration-color: var(--accent); }
 
+.footer-legal {
+  margin-top: var(--space-lg);
+  padding-top: var(--space-lg);
+  border-top: 1px solid var(--border);
+  font-size: var(--text-xs);
+  gap: 6px 18px;
+}
+.footer-legal a[aria-current="page"] { color: var(--iron); font-weight: 600; }
+
 /* ---------- Utilities ---------- */
 
 .mt-0 { margin-top: 0; }
