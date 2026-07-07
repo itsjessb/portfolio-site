@@ -1,0 +1,11 @@
+# Netlify serves every file in the repo root as part of the live site.
+# These rules keep internal / developer files from being served to
+# visitors — they return 404 instead of the file's contents.
+#
+# The trailing "!" forces the rule to win even though a real file exists
+# at that path (without it, Netlify serves the file before applying rules).
+
+/CLAUDE.md     /  404!
+/.claude/*     /  404!
+/.gitignore    /  404!
+/README.md     /  404!

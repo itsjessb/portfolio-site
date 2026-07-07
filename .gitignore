@@ -1,3 +1,8 @@
-# Local Claude Code tooling config. Not part of the site, and anything
-# committed here gets published to the live site (Netlify serves the repo root).
-.claude/
+# Local Claude Code tooling config. Netlify serves the repo root, so files
+# committed here would be published to the live site — EXCEPT that _redirects
+# now blocks the /.claude/* path from being served to visitors.
+#
+# Ignore everything under .claude/ (local caches, session state) but allow
+# settings.json, which holds the shared "ask before committing" guardrail.
+.claude/*
+!.claude/settings.json
