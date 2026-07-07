@@ -14,6 +14,11 @@ Notes:
 - Trivial non-visual edits (a typo in a comment, etc.) don't need a full screenshot, but still confirm before pushing.
 - Pull requests are optional and separate from this loop — only open one if Jessica asks.
 
+## Site & hosting
+
+- **Live site:** https://jessicabargenquast.com
+- Hosted on **Netlify**, which serves the **repo root** as the published site. Any file committed to the repo becomes a public URL unless a rule in `_redirects` blocks it. Internal/dev files (`CLAUDE.md`, `.claude/`, `.gitignore`, `README.md`) are blocked there — keep that in mind before committing new non-site files to the root.
+
 ## Business & legal status
 
 Jessica currently operates this site and business as an **individual (sole proprietor)**, not a registered business entity. The legal pages (`privacy-policy.html`, `terms-of-use.html`, `cookie-notice.html`) are written for an individual.
